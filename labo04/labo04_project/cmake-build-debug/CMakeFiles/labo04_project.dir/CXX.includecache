@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Taller/labo04/labo04_project/ej2_02.cpp
+iostream
+-
+vector
+-
+fstream
+-
+

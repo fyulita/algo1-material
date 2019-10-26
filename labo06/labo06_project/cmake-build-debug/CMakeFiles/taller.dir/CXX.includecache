@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Taller/labo06/labo06_project/ejercicios.cpp
+../template-alumnos/ejercicios.h
+D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Taller/labo06/template-alumnos/ejercicios.h
+
+D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Taller/labo06/template-alumnos/ejercicios.h
+vector
+-
+utility
+-
+tuple
+-
+
