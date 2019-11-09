@@ -1,0 +1,4 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Material/Algoritmos Utiles/cmake-build-debug
