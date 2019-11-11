@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-int findMinPosition(vector<int> &s, int d, int h){
+int findMinPosition(vector<int> &s, int d, int h) {
     int min = d;
     for (int i = d + 1; i < h; i++) {
         if (s[i] <= s[min]) {
@@ -36,7 +36,7 @@ void insertionSort(vector<int> &s) {
     }
 }
 
-int findMaxPosition(vector<int> &s, int d, int h){
+int findMaxPosition(vector<int> &s, int d, int h) {
     int max = d;
     for (int i = d + 1; i < h; i++) {
         if (s[i] >= s[max]) {
@@ -127,4 +127,43 @@ void bingoSort(vector<int> &s) {
             i = i + minPos.size();
         }
     }
+}
+
+#define RED 0
+#define WHITE 1
+#define BLUE 2
+using flag = vector<int>;
+
+vector<int> fillColorCount(flag &s) {
+    vector<int> colorCount(3, 0);
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] == RED) {
+            colorCount[RED]++;
+        } else if (s[i] == WHITE) {
+            colorCount[WHITE]++;
+        } else if (s[i] == BLUE) {
+            colorCount[BLUE]++;
+        }
+    }
+    return colorCount;
+}
+
+void populate(flag &s, vector<int> &colorCount) {
+    for (int i = 0; i < s.size(); i++) {
+        if (colorCount[RED] > 0) {
+            s[i] = RED;
+            colorCount[RED]--;
+        } else if (colorCount[WHITE] > 0) {
+            s[i] = WHITE;
+            colorCount[WHITE]--;
+        } else {
+            s[i] = BLUE;
+            colorCount[BLUE]--;
+        }
+    }
+}
+
+void dutchNationalFlag(flag &s) {
+    vector<int> colorCount = fillColorCount(s);
+    populate(s, colorCount);
 }

@@ -210,3 +210,31 @@ TEST(bingoSortTest, desordenadaRepetiendo){
     bingoSort(s);
     EXPECT_EQ(s, expected);
 }
+
+TEST(dutchNationalFlagTest, vacia){
+    flag s = {};
+    flag expected = {};
+    dutchNationalFlag(s);
+    EXPECT_EQ(s, expected);
+}
+
+TEST(dutchNationalFlagTest, iguales){
+    flag s = {0, 0, 0, 0, 0, 0};
+    flag expected = {0, 0, 0, 0, 0, 0};
+    dutchNationalFlag(s);
+    EXPECT_EQ(s, expected);
+}
+
+TEST(dutchNationalFlagTest, ordenada){
+    flag s = {0, 0, 0, 1, 2};
+    flag expected = {0, 0, 0, 1, 2};
+    dutchNationalFlag(s);
+    EXPECT_EQ(s, expected);
+}
+
+TEST(dutchNationalFlagTest, desordenada){
+    flag s = {1, 1, 2, 1, 0, 2, 1, 2, 1, 2, 0, 0};
+    flag expected = {0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2};
+    dutchNationalFlag(s);
+    EXPECT_EQ(s, expected);
+}

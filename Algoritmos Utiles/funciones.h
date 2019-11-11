@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 using namespace std;
+using flag = vector<int>;
 
 bool busquedaLineal(vector<int> &s, int x);
 bool busquedaBinaria(vector<int> &s, int x);
@@ -16,5 +17,6 @@ void cocktailSort(vector<int> &s);
 void bubbleSort(vector<int> &s);
 void cocktailShakerSort(vector<int> &s);
 void bingoSort(vector<int> &s);
+void dutchNationalFlag(flag &s);
 
 #endif //ALGORITMOS_UTILES_FUNCIONES_H
