@@ -1,5 +1,5 @@
 D:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles"
--- Found PythonInterp: C:/Users/feder/AppData/Local/Programs/Python/Python37-32/python.exe (found version "3.7.4") 
+-- Found PythonInterp: C:/Users/feder/AppData/Local/Programs/Python/Python37-32/python.exe  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/Fede/UBA/6/Algoritmos y Estructura de Datos 1/Material/Algoritmos Utiles/cmake-build-debug

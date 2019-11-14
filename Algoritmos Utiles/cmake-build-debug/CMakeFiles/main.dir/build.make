@@ -84,10 +84,24 @@ CMakeFiles/main.dir/busqueda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/busqueda.cpp.s"
 	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\busqueda.cpp" -o CMakeFiles\main.dir\busqueda.cpp.s
 
+CMakeFiles/main.dir/ordenamiento.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/ordenamiento.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/ordenamiento.cpp.obj: ../ordenamiento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/ordenamiento.cpp.obj"
+	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\ordenamiento.cpp.obj -c "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp"
+
+CMakeFiles/main.dir/ordenamiento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/ordenamiento.cpp.i"
+	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp" > CMakeFiles\main.dir\ordenamiento.cpp.i
+
+CMakeFiles/main.dir/ordenamiento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/ordenamiento.cpp.s"
+	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp" -o CMakeFiles\main.dir\ordenamiento.cpp.s
+
 CMakeFiles/main.dir/tests/busquedaTests.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/tests/busquedaTests.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/tests/busquedaTests.cpp.obj: ../tests/busquedaTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/tests/busquedaTests.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/tests/busquedaTests.cpp.obj"
 	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\tests\busquedaTests.cpp.obj -c "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\tests\busquedaTests.cpp"
 
 CMakeFiles/main.dir/tests/busquedaTests.cpp.i: cmake_force
@@ -101,7 +115,7 @@ CMakeFiles/main.dir/tests/busquedaTests.cpp.s: cmake_force
 CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj: ../tests/ordenamientoTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj"
 	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\tests\ordenamientoTests.cpp.obj -c "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\tests\ordenamientoTests.cpp"
 
 CMakeFiles/main.dir/tests/ordenamientoTests.cpp.i: cmake_force
@@ -112,36 +126,22 @@ CMakeFiles/main.dir/tests/ordenamientoTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/tests/ordenamientoTests.cpp.s"
 	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\tests\ordenamientoTests.cpp" -o CMakeFiles\main.dir\tests\ordenamientoTests.cpp.s
 
-CMakeFiles/main.dir/ordenamiento.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/ordenamiento.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/ordenamiento.cpp.obj: ../ordenamiento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/ordenamiento.cpp.obj"
-	D:\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\ordenamiento.cpp.obj -c "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp"
-
-CMakeFiles/main.dir/ordenamiento.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/ordenamiento.cpp.i"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp" > CMakeFiles\main.dir\ordenamiento.cpp.i
-
-CMakeFiles/main.dir/ordenamiento.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/ordenamiento.cpp.s"
-	D:\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Fede\UBA\6\Algoritmos y Estructura de Datos 1\Material\Algoritmos Utiles\ordenamiento.cpp" -o CMakeFiles\main.dir\ordenamiento.cpp.s
-
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
 "CMakeFiles/main.dir/busqueda.cpp.obj" \
+"CMakeFiles/main.dir/ordenamiento.cpp.obj" \
 "CMakeFiles/main.dir/tests/busquedaTests.cpp.obj" \
-"CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj" \
-"CMakeFiles/main.dir/ordenamiento.cpp.obj"
+"CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 ../main.exe: CMakeFiles/main.dir/main.cpp.obj
 ../main.exe: CMakeFiles/main.dir/busqueda.cpp.obj
+../main.exe: CMakeFiles/main.dir/ordenamiento.cpp.obj
 ../main.exe: CMakeFiles/main.dir/tests/busquedaTests.cpp.obj
 ../main.exe: CMakeFiles/main.dir/tests/ordenamientoTests.cpp.obj
-../main.exe: CMakeFiles/main.dir/ordenamiento.cpp.obj
 ../main.exe: CMakeFiles/main.dir/build.make
 ../main.exe: lib/libgtestd.a
 ../main.exe: lib/libgtest_maind.a

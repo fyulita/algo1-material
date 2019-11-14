@@ -164,6 +164,7 @@ void populate(flag &s, vector<int> &colorCount) {
 }
 
 void dutchNationalFlag(flag &s) {
+    /* Este algoritmo tambien se llama countingSort */
     vector<int> colorCount = fillColorCount(s);
     populate(s, colorCount);
 }
