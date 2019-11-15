@@ -17,7 +17,7 @@ bool busquedaBinaria(vector<int> &s, int x) {
         return s[0] == x;
     } else if (x <= s[0]) {
         return s[0] == x;
-    }else if (x >= s[s.size() - 1]) {
+    } else if (x >= s[s.size() - 1]) {
         return s[s.size() - 1] == x;
     } else {
         int low = 0;
